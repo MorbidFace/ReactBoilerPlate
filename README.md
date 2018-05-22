@@ -10,7 +10,7 @@ Components found is `source` format should be able to be used for NPM/Yarn insta
   - [Jest](#jest)
   - [Enzyme](#enzyme)
   - [Webpack](#webpack)
-  - [Sass/Scss](#sass/scss)
+  - [Sass](#sass)
 - [Awesome Third Party Libraries](#awesome-third-party-libraries)
   - [Semantic Ui](#semantic-ui)
   - [React Reveal](#react-reveal)
@@ -81,7 +81,7 @@ Documentation [Here](https://webpack.js.org/concepts/)
 
 ---
 
-### Sass/Scss
+### Sass
 
 Better than normal css. Allows for imports of other stylesheets for better organization and for variables in the stylesheets.
 
