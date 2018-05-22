@@ -102,6 +102,10 @@ Better than normal css. Allows for imports of other stylesheets for better organ
 +    "build": "npm-run-all build-css build-js",
 ```
 
+Documentation [Here](https://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+
+---
+
 # Awesome Important Third Party Libraries
 
 ### Semantic UI
@@ -152,4 +156,3 @@ All documentation can be found [here](https://firebase.google.com/docs/)
 * `firebase` - Standard lib for firebase tools.
 * `react-redux-firebase` - Tools to link Firebase and redux
 * `redux-firestore` - Tools to link Firestore specifically with redux
-
