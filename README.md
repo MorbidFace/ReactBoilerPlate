@@ -63,6 +63,26 @@ Functions for testing to allow snapshots for React components:
 * `enzyme`
 * `enzyme-adapter-react-16`
 * `enzyme-to-json`
+* `react-test-renderer`
+
+You also need a `setupTests.js` file in `/src/` with the following:
+
+```javascript
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
+```
+
+A change also needs to be made to `package.json`:
+
+```diff
+...
++"jest": {
++    "snapshotSerializers": ["enzyme-to-json/serializer"]
++  },
+...
+```
 
 ---
 
