@@ -19,10 +19,9 @@ Components found is `source` format should be able to be used for NPM/Yarn insta
 
 # Important Third Party Libraries
 
-### Redux
+### [Redux](https://redux.js.org/#documentation)
 
 Probably the best(not the only) solution for site wide state. Plugs in extremely well with React;
-Documentation [here](https://redux.js.org/#documentation)
 
 * `redux` - Contains the Provider and configure store functions
 * `react-redux` - Most used import for redux: Contains the connect Higher Order component
@@ -49,6 +48,8 @@ Preferred use for React navigation. Documentation found [here](https://reacttrai
 
 Nice testing suite that can be used for React and it's components to be used alongside Enzyme:
 Documentation [here](https://facebook.github.io/jest/docs/en/api.html)
+
+**Jest is already in Create-React-App scripts, therefore you do not need to install it here**
 
 * `jest` - Testing suite
 
