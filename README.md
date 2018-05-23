@@ -29,9 +29,9 @@ Probably the best(not the only) solution for site wide state. Plugs in extremely
 
 ---
 
-### React Router
+### [React Router](https://reacttraining.com/react-router/web/guides/philosophy)
 
-Preferred use for React navigation. Documentation found [here](https://reacttraining.com/react-router/web/guides/philosophy). There are **TWO** types but for normal react applications we only use one:
+Preferred use for React navigation. There are **TWO** types but for normal react applications we only use one:
 
 * `react-router-dom` - Navigation around the site.
 
@@ -44,10 +44,9 @@ Preferred use for React navigation. Documentation found [here](https://reacttrai
 
 ---
 
-### Jest
+### [Jest](https://facebook.github.io/jest/docs/en/api.html)
 
 Nice testing suite that can be used for React and it's components to be used alongside Enzyme:
-Documentation [here](https://facebook.github.io/jest/docs/en/api.html)
 
 **Jest is already in Create-React-App scripts, therefore you do not need to install it here**
 
@@ -55,12 +54,11 @@ Documentation [here](https://facebook.github.io/jest/docs/en/api.html)
 
 ---
 
-### Enzyme
+### [Enzyme](http://airbnb.io/enzyme/docs/api/)
 
 Functions for testing to allow snapshots for React components:
 
 **Needs setup for react 16+**
-Documentation found [here](http://airbnb.io/enzyme/docs/api/)
 
 * `enzyme`
 * `enzyme-adapter-react-16`
@@ -68,7 +66,7 @@ Documentation found [here](http://airbnb.io/enzyme/docs/api/)
 
 ---
 
-### Webpack
+### [Webpack](https://webpack.js.org/concepts/) 
 
 Bundles and runs your site on a server (usually Express)
 
@@ -78,11 +76,9 @@ Bundles and runs your site on a server (usually Express)
 Also requires a config file: `webpack.config.js`
 * Here you can change settings for bundling or work around environments
 
-Documentation [Here](https://webpack.js.org/concepts/) 
-
 ---
 
-### Sass
+### [Sass](https://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
 Better than normal css. Allows for imports of other stylesheets for better organization and for variables in the stylesheets.
 
@@ -103,24 +99,22 @@ Better than normal css. Allows for imports of other stylesheets for better organ
 +    "build": "npm-run-all build-css build-js",
 ```
 
-Documentation [Here](https://sass-lang.com/documentation/file.SASS_REFERENCE.html)
-
 ---
 
 # Awesome Important Third Party Libraries
 
-### Semantic UI
+### [Semantic UI](https://react.semantic-ui.com)
 
-Fantistic component set for react. More info in the docs [here](https://react.semantic-ui.com)
+Fantistic component set for react.
 
 * `semantic-ui-css` - Place in `index.js` with `import 'semantic-ui-css/semantic.min.css'`
 * `semantic-ui-react` - Standard import for Semantic components.
 
 ---
 
-### React Reveal
+### [React Reveal](https://www.react-reveal.com/docs/)
 
-If you want to apply basic animations to elements easily for react. Look no further. Docs [here](https://www.react-reveal.com/docs/)
+If you want to apply basic animations to elements easily for react. Look no further.
 
 * `react-reveal` - Standard import statement.
   * **PLEASE NOTE** Docs state you should import: `import Fade from 'react-reveal/Fade';` You can rather: `import { Fade } from 'react-reveal';`
@@ -135,7 +129,7 @@ To flatten out all browsers to start at the same base css
 
 ---
 
-### Firebase
+### [Firebase](https://firebase.google.com/docs/)
 
 Fantastic cloud service provider by Google. Free package is incredible with a maximum of 10 projects at a time.
 
@@ -148,8 +142,6 @@ It contains:
   * Firestore
 * Cloud Functions
 * And more...
-
-All documentation can be found [here](https://firebase.google.com/docs/)
 
 **To use Functions and Hosting** you need to install the firebase cli: `npm install -g firebase-tools`
 
